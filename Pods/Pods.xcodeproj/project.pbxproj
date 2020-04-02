@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2253D40773657AA9A5D10EF4CDA6EC93 /* PolyGF256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9601A81FED060AD2B5CFF5A5A7A9F2F4 /* PolyGF256.swift */; };
+		2AD0B98D8ECB7D13B718B9459C4DE242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		317143E10DEBEFA78EDB8C3CF3C8C484 /* SwiftySSS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E5401988ECA993D02BB5434966205 /* SwiftySSS-dummy.m */; };
+		56BB9994DC078377B475C52086C4CAD9 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999137FB6A571859DA3FED712E7264D9 /* Util.swift */; };
+		6B5F1C94B6FBEFA9E11808AB4F32458F /* Pods-SecretSharingTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF393D9FF7E980B01A4FB424C62434F /* Pods-SecretSharingTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE0702742AA0DE78373D72D0F5CFC1B /* SwiftySSS.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C16949A5741DA55268C8C87FFE7ECD /* SwiftySSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893C020DCE3E0F26A8BA7E85A7F6BBDA /* ShamirSecretShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E81262C6857AA9017F4F2E54B31EF /* ShamirSecretShare.swift */; };
+		8E45DC63BEA1F1B5742F7AC0845124ED /* Pods-SecretSharingTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF839C1A6CD77021709540CAB0BA498 /* Pods-SecretSharingTesting-dummy.m */; };
+		9332021B525298422B6B17409BDD7E27 /* GF256.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5DAF4D7CD71C0FDFDBFADD19634831 /* GF256.swift */; };
+		D3F5E168D0715FCAB136CCBA8F5DEF52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ECFFB632E8BD4D7DB4EE24B7E6E19431 /* SwiftySSS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5AD16F5E70A51E2FF2F5E58984D0236 /* SwiftySSS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B19B8A19C5943ADC1AF1B29F423E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76008A570608EFE70E082B7B2541EC6;
+			remoteInfo = SwiftySSS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA43728E8477C1B73130DF32855A67D /* Pods_SecretSharingTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SecretSharingTesting.framework; path = "Pods-SecretSharingTesting.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E0CE0817E6BF65B63DB59258EF9690 /* SwiftySSS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftySSS.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		465E81262C6857AA9017F4F2E54B31EF /* ShamirSecretShare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShamirSecretShare.swift; path = SwiftySSS/ShamirSecretShare.swift; sourceTree = "<group>"; };
+		4F30D1AFD186AEFE6D64AB92476D7228 /* SwiftySSS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySSS-prefix.pch"; sourceTree = "<group>"; };
+		5870371FAAD553CDD915D576B2F93F49 /* Pods-SecretSharingTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretSharingTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		5C4E5401988ECA993D02BB5434966205 /* SwiftySSS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySSS-dummy.m"; sourceTree = "<group>"; };
+		6CF393D9FF7E980B01A4FB424C62434F /* Pods-SecretSharingTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecretSharingTesting-umbrella.h"; sourceTree = "<group>"; };
+		7167FC53EBEF6765AB75C0C4AF17F32B /* SwiftySSS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftySSS-Info.plist"; sourceTree = "<group>"; };
+		79C1846988D17241E86D96A0D98E0F38 /* Pods-SecretSharingTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretSharingTesting.release.xcconfig"; sourceTree = "<group>"; };
+		7DE340ADED76C44E277AD0BDE2CBD169 /* SwiftySSS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySSS.xcconfig; sourceTree = "<group>"; };
+		86AC625B83E177955D426C6E99C69C28 /* Pods-SecretSharingTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecretSharingTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9601A81FED060AD2B5CFF5A5A7A9F2F4 /* PolyGF256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolyGF256.swift; path = SwiftySSS/PolyGF256.swift; sourceTree = "<group>"; };
+		98C43AFB6AAFE5A19F97863A8C940B55 /* Pods-SecretSharingTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecretSharingTesting-frameworks.sh"; sourceTree = "<group>"; };
+		999137FB6A571859DA3FED712E7264D9 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = SwiftySSS/Util.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8C16949A5741DA55268C8C87FFE7ECD /* SwiftySSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftySSS.h; path = SwiftySSS/SwiftySSS.h; sourceTree = "<group>"; };
+		B03FD0973D9E6144E85006389B49553F /* Pods-SecretSharingTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecretSharingTesting.modulemap"; sourceTree = "<group>"; };
+		B5AD16F5E70A51E2FF2F5E58984D0236 /* SwiftySSS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySSS-umbrella.h"; sourceTree = "<group>"; };
+		C346316B8E12F6C59401F5D13E0B7FD0 /* Pods-SecretSharingTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecretSharingTesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		D197E6B4C6342C08180FDD2E41735E5A /* Pods-SecretSharingTesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecretSharingTesting-Info.plist"; sourceTree = "<group>"; };
+		E68479387F62810950E1A9D0D82ABF3A /* SwiftySSS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftySSS.framework; path = SwiftySSS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF839C1A6CD77021709540CAB0BA498 /* Pods-SecretSharingTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecretSharingTesting-dummy.m"; sourceTree = "<group>"; };
+		FC5DAF4D7CD71C0FDFDBFADD19634831 /* GF256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GF256.swift; path = SwiftySSS/GF256.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA23C2F57546C9AFB7341D3478B8745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD0B98D8ECB7D13B718B9459C4DE242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29FF082A5B91A892B7826B8D88D5D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F5E168D0715FCAB136CCBA8F5DEF52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009B946B549BA2F7B182DAC99B06BAF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AAB4831F8066146E97BC3B3A8AAA6F1 /* SwiftySSS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AAB4831F8066146E97BC3B3A8AAA6F1 /* SwiftySSS */ = {
+			isa = PBXGroup;
+			children = (
+				FC5DAF4D7CD71C0FDFDBFADD19634831 /* GF256.swift */,
+				9601A81FED060AD2B5CFF5A5A7A9F2F4 /* PolyGF256.swift */,
+				465E81262C6857AA9017F4F2E54B31EF /* ShamirSecretShare.swift */,
+				A8C16949A5741DA55268C8C87FFE7ECD /* SwiftySSS.h */,
+				999137FB6A571859DA3FED712E7264D9 /* Util.swift */,
+				58D2243E81ED0D7ADA217E0D0B479A50 /* Support Files */,
+			);
+			name = SwiftySSS;
+			path = SwiftySSS;
+			sourceTree = "<group>";
+		};
+		538A3D3F2D5786BA89063F7109194298 /* Pods-SecretSharingTesting */ = {
+			isa = PBXGroup;
+			children = (
+				B03FD0973D9E6144E85006389B49553F /* Pods-SecretSharingTesting.modulemap */,
+				86AC625B83E177955D426C6E99C69C28 /* Pods-SecretSharingTesting-acknowledgements.markdown */,
+				C346316B8E12F6C59401F5D13E0B7FD0 /* Pods-SecretSharingTesting-acknowledgements.plist */,
+				FBF839C1A6CD77021709540CAB0BA498 /* Pods-SecretSharingTesting-dummy.m */,
+				98C43AFB6AAFE5A19F97863A8C940B55 /* Pods-SecretSharingTesting-frameworks.sh */,
+				D197E6B4C6342C08180FDD2E41735E5A /* Pods-SecretSharingTesting-Info.plist */,
+				6CF393D9FF7E980B01A4FB424C62434F /* Pods-SecretSharingTesting-umbrella.h */,
+				5870371FAAD553CDD915D576B2F93F49 /* Pods-SecretSharingTesting.debug.xcconfig */,
+				79C1846988D17241E86D96A0D98E0F38 /* Pods-SecretSharingTesting.release.xcconfig */,
+			);
+			name = "Pods-SecretSharingTesting";
+			path = "Target Support Files/Pods-SecretSharingTesting";
+			sourceTree = "<group>";
+		};
+		58D2243E81ED0D7ADA217E0D0B479A50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E0CE0817E6BF65B63DB59258EF9690 /* SwiftySSS.modulemap */,
+				7DE340ADED76C44E277AD0BDE2CBD169 /* SwiftySSS.xcconfig */,
+				5C4E5401988ECA993D02BB5434966205 /* SwiftySSS-dummy.m */,
+				7167FC53EBEF6765AB75C0C4AF17F32B /* SwiftySSS-Info.plist */,
+				4F30D1AFD186AEFE6D64AB92476D7228 /* SwiftySSS-prefix.pch */,
+				B5AD16F5E70A51E2FF2F5E58984D0236 /* SwiftySSS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftySSS";
+			sourceTree = "<group>";
+		};
+		5EAE3752C68EB5FE963774CC452DAF7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA43728E8477C1B73130DF32855A67D /* Pods_SecretSharingTesting.framework */,
+				E68479387F62810950E1A9D0D82ABF3A /* SwiftySSS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C3EF9F6601CD143CFEC49119E63F5B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				538A3D3F2D5786BA89063F7109194298 /* Pods-SecretSharingTesting */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				009B946B549BA2F7B182DAC99B06BAF9 /* Pods */,
+				5EAE3752C68EB5FE963774CC452DAF7B /* Products */,
+				83C3EF9F6601CD143CFEC49119E63F5B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		049F2390639C5B31F4CD4CEF69DFF91B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFFB632E8BD4D7DB4EE24B7E6E19431 /* SwiftySSS-umbrella.h in Headers */,
+				6FE0702742AA0DE78373D72D0F5CFC1B /* SwiftySSS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255BB19AEA26435843F842AD43E420E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5F1C94B6FBEFA9E11808AB4F32458F /* Pods-SecretSharingTesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0384C674D8D5B2C618DA202ED7E6BCD5 /* Pods-SecretSharingTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443B2CF137CD1AFAE8DFF70924B8821 /* Build configuration list for PBXNativeTarget "Pods-SecretSharingTesting" */;
+			buildPhases = (
+				255BB19AEA26435843F842AD43E420E5 /* Headers */,
+				234E989208314E1947E959CD177680C1 /* Sources */,
+				5CA23C2F57546C9AFB7341D3478B8745 /* Frameworks */,
+				59FB75D7756432F0829F65C2AECAFBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C4B148FBBEF68FB7C6B6274A3430DF /* PBXTargetDependency */,
+			);
+			name = "Pods-SecretSharingTesting";
+			productName = "Pods-SecretSharingTesting";
+			productReference = 1DA43728E8477C1B73130DF32855A67D /* Pods_SecretSharingTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F76008A570608EFE70E082B7B2541EC6 /* SwiftySSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF22E2A416A6E87CEB34C5E416D6509A /* Build configuration list for PBXNativeTarget "SwiftySSS" */;
+			buildPhases = (
+				049F2390639C5B31F4CD4CEF69DFF91B /* Headers */,
+				1976D84D88B26FA7C149801C295E06DF /* Sources */,
+				C29FF082A5B91A892B7826B8D88D5D7B /* Frameworks */,
+				937109CB7E53245F388D1D5B09B45780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySSS;
+			productName = SwiftySSS;
+			productReference = E68479387F62810950E1A9D0D82ABF3A /* SwiftySSS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5EAE3752C68EB5FE963774CC452DAF7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0384C674D8D5B2C618DA202ED7E6BCD5 /* Pods-SecretSharingTesting */,
+				F76008A570608EFE70E082B7B2541EC6 /* SwiftySSS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59FB75D7756432F0829F65C2AECAFBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937109CB7E53245F388D1D5B09B45780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1976D84D88B26FA7C149801C295E06DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9332021B525298422B6B17409BDD7E27 /* GF256.swift in Sources */,
+				2253D40773657AA9A5D10EF4CDA6EC93 /* PolyGF256.swift in Sources */,
+				893C020DCE3E0F26A8BA7E85A7F6BBDA /* ShamirSecretShare.swift in Sources */,
+				317143E10DEBEFA78EDB8C3CF3C8C484 /* SwiftySSS-dummy.m in Sources */,
+				56BB9994DC078377B475C52086C4CAD9 /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234E989208314E1947E959CD177680C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E45DC63BEA1F1B5742F7AC0845124ED /* Pods-SecretSharingTesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2C4B148FBBEF68FB7C6B6274A3430DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySSS;
+			target = F76008A570608EFE70E082B7B2541EC6 /* SwiftySSS */;
+			targetProxy = 04B19B8A19C5943ADC1AF1B29F423E74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0479B6D07F98478889D4AA2CEBE9B50F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C1846988D17241E86D96A0D98E0F38 /* Pods-SecretSharingTesting.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecretSharingTesting/Pods-SecretSharingTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecretSharingTesting/Pods-SecretSharingTesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67BE00B34A445E96F5610640B60CAAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE340ADED76C44E277AD0BDE2CBD169 /* SwiftySSS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySSS/SwiftySSS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySSS/SwiftySSS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySSS/SwiftySSS.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySSS;
+				PRODUCT_NAME = SwiftySSS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F7D8F12AE2A8F82B58512A7826A4FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5870371FAAD553CDD915D576B2F93F49 /* Pods-SecretSharingTesting.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SecretSharingTesting/Pods-SecretSharingTesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SecretSharingTesting/Pods-SecretSharingTesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F82EB43E527B34C265B47372E1C68BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE340ADED76C44E277AD0BDE2CBD169 /* SwiftySSS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySSS/SwiftySSS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySSS/SwiftySSS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySSS/SwiftySSS.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySSS;
+				PRODUCT_NAME = SwiftySSS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443B2CF137CD1AFAE8DFF70924B8821 /* Build configuration list for PBXNativeTarget "Pods-SecretSharingTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7D8F12AE2A8F82B58512A7826A4FB1 /* Debug */,
+				0479B6D07F98478889D4AA2CEBE9B50F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF22E2A416A6E87CEB34C5E416D6509A /* Build configuration list for PBXNativeTarget "SwiftySSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BE00B34A445E96F5610640B60CAAB4 /* Debug */,
+				F82EB43E527B34C265B47372E1C68BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
